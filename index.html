@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="coverflow.css" />
+    <link rel="stylesheet" href="Mystyle.css" />
+    <script defer src="jquery.min.js"></script>
+    <script defer src="sly.min.js"></script>
+    <script defer src="coverflow.js"></script>
+    <meta name="viewport" content="width=device-width" />
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        coverflowimages({
+          coverid: 'coverflow1',
+          images: [
+            ['asssets/thumb2.jpg'],
+            ['asssets/thumb3.jpg'],
+            ['asssets/thumb4.jpg'],
+            ['asssets/thumb1.jpg'],
+            ['asssets/thumb5.jpg']
+          ]
+        });
+      });
+    </script>
+
+  </head>
+
+  <body>
+    <div class="wrap" id="coverflow1">
+      <div class="scrollbar">
+        <div class="handle">
+          <div class="mousearea"></div>
+        </div>
+      </div>
+
+      <div class="frame coverflow">
+        <ul class="clearfix">
+          <li><img src="asssets/thumb2.jpg"/></li>
+          <li><img src="asssets/thumb3.jpg"/></li>
+          <li><img src="asssets/thumb4.jpg"/></li>
+          <li><img src="asssets/thumb1.jpg"/></li>
+          <li><img src="asssets/thumb5.jpg"/></li>
+        </ul>
+      </div>
+
+      <ul class="pages"></ul>
+    </div>
+
+    <div class="content-container">
+      <!-- <img align="right" src="asssets/thumb1.jpg" /><br /><br /> -->
+      <p><br /></p>
+      <hr width="1000" />
+      <a href="autobazzar.html">Home</a> | <a href="aboutus.html">About Us</a> |
+      <a href="finddealer.html"> Find a Dealer </a> |
+      <hr width="1000" />
+      <h2>THE KAREN CAR BAZZAR</h2>
+      <p></p>
+      <ul class="navbar">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Find a Dealer</li>
+      </ul>
+      <table border="5">
+        <tr>
+          <td><img src="asssets/thumb1.jpg" /></td>
+          <td><img src="asssets/thumb2.jpg" /></td>
+          <td><img src= "asssets/thumb4.jpg"/></td>
+        </tr>
+        <tr>
+          <td align="center">
+            <font type="comic sans" color="green">
+              Audi A4 2011 model Price 11500 usd CIF mombasa</font
+            >
+          </td>
+          <td>
+            <font type="comic sans" color="green"
+              >Audi R8 coupe 2013 model Price 17000 usd CIF Mombasa</font
+            >
+          </td>
+          <td>
+            <font type="comic sans" color="green"
+              >The Dodge Chellenger 1999 model price 15000 usd CIF mombasa</font
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><img src="asssets/thumb5.jpg" /></td>
+          <td><img src="asssets/thumb3.jpg" /></td>
+          <td><img src="asssets/thumb2.jpg" /></td>
+        </tr>
+        <tr>
+          <td>The Ford Mustang 500 price 18340 usd CIF Mombasa</td>
+          <td>The BMW M3 Convertible 2009 model price 20110 usd CIF Mombasa</td>
+          <td>Lambigini Matador 2009 model Price 23400 usd CIF Mombasa</td>
+        </tr>
+      </table>
+      <p>our offices are at the juction towards Hardy Police Station</p>
+    </div>
+  </body>
+</html>

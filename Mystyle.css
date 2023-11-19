@@ -1,0 +1,33 @@
+ body{ 
+	padding-left:11em;
+	font-family:"Trebuchet MS", Verdana, Arial, serif;;
+	color:grey;
+	background-color:#181E1E;}
+  UL.navbar{
+	list-Style-type:none;
+	padding:0;
+	margin:0.5em;
+
+	position:absolute;
+	top:2em;
+	left:1em;
+	width:9em;
+	}
+  h1,h2,h3{
+	font-family:Helvetica,Geneva,Arial,Sunsans-Regular,sans-serif;}
+  UL.navbar li{
+		/* background:#; */
+		margin:0.5em0;
+		padding:0.5em;
+		border-right:5px solid black
+		}
+  UL.navbar a{
+		text-decoration:none}
+	a:link{
+		color:#ffffff}
+	a:visited{
+		color: #ffffff}
+	
+
+
+ 
