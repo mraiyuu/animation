@@ -25,13 +25,13 @@
 	background-position: center center; /* center image within carousel */
 	background-repeat: no-repeat;
 	background-size: cover; /* CSS3 property to scale image within container? "cover" or "contain" */
-	color: #ddd;
+	/* color: #ddd; */
 	text-align: center;
 	cursor: pointer;
 }
-.frame ul li.active {
+/* .frame ul li.active {
 	color: #fff;
-}
+} */
 
 /* Scrollbar */
 .scrollbar {
